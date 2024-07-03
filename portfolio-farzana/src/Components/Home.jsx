@@ -1,9 +1,11 @@
+import Contact from "./Contact";
 import EducationExperience from "./EducationExperience";
+import Projects from "./Projects";
 import SkillsResume from "./SkillsResume";
 
 const Home = () => {
   return (
-    <div>
+    <div className='mt-20'>
       <div className='grid grid-cols-1 lg:grid-cols-3'>
         {/* first column */}
         <div className='col-span-1'>
@@ -35,10 +37,11 @@ const Home = () => {
           <h2>photo</h2>
         </div>
       </div>
-      <div className='mt-10'>
-        <SkillsResume></SkillsResume>
-        <EducationExperience></EducationExperience>
-      </div>
+      <div className='mt-96'></div>
+      <SkillsResume></SkillsResume>
+      <EducationExperience></EducationExperience>
+      <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 };
