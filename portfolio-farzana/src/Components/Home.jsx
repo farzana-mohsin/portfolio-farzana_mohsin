@@ -3,12 +3,95 @@ import Contact from "./Contact";
 import EducationExperience from "./EducationExperience";
 import Projects from "./Projects";
 import SkillsResume from "./SkillsResume";
-import banner from "../../public/What-Are-Computer-Characteristics-10-Computer-Characteristics-Every-Child-Should-Know.png";
 import profile from "../../public/IMG_7517.jpg";
+import { useRef } from "react";
 
 const Home = () => {
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref4 = useRef(null);
+
+  const handleSkills = () => {
+    ref1.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleEducation = () => {
+    ref2.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleProjects = () => {
+    ref4.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleContact = () => {
+    ref4.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const pageLinks = (
+    <>
+      <li className='text-lg'>
+        <button onClick={handleSkills}>Skills & Resume</button>
+      </li>
+      <li className='text-lg'>
+        <button onClick={handleEducation}>Education & Experience</button>
+      </li>
+      <li className='text-lg'>
+        <button onClick={handleProjects}>Projects</button>
+      </li>
+      <li className='text-lg'>
+        <button onClick={handleContact}>Contact</button>
+      </li>
+    </>
+  );
+
   return (
-    <div className='mt-20'>
+    <div>
+      {/* navbar */}
+      <div className='navbar bg-base-100 mt-5 mb-10'>
+        <div className='navbar-start'>
+          <div className='dropdown'>
+            <div
+              tabIndex={0}
+              role='button'
+              className='btn btn-ghost lg:hidden'
+            >
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                className='h-6 w-6'
+                fill='none'
+                viewBox='0 0 24 24'
+                stroke='currentColor'
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  strokeWidth='2'
+                  d='M4 6h16M4 12h8m-8 6h16'
+                />
+              </svg>
+            </div>
+            <ul
+              tabIndex={0}
+              className='menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-36 lg:w-52'
+            >
+              {pageLinks}
+            </ul>
+          </div>
+          <a className='text-[#302729] text-2xl lg:text-4xl font-extrabold'>
+            PORTFOLIO
+          </a>
+        </div>
+        <div className='navbar-end hidden lg:flex'>
+          <ul className='menu menu-horizontal px-1'>{pageLinks}</ul>
+        </div>
+        {/* <div className='navbar-end gap-2 mr-5 lg:mr-auto'>
+          <a className='btn text-white bg-[#23BE0A] text-xs lg:text-base rounded-3xl'>
+            Sign In
+          </a>
+          <a className='btn text-white bg-teal-500 text-xs lg:text-base rounded-3xl '>
+            Sign Up
+          </a>
+        </div> */}
+      </div>
+
+      {/* about */}
       <div className='grid grid-cols-1 lg:grid-cols-4 h-full'>
         {/* first column */}
         <div className='col-span-1 bg-[#3f212b] text-white py-10 space-y-8 pl-14'>
@@ -65,11 +148,19 @@ const Home = () => {
           />
         </div>
       </div>
-      <div></div>
-      <SkillsResume></SkillsResume>
-      <EducationExperience></EducationExperience>
-      <Projects></Projects>
-      <Contact></Contact>
+      <div ref={ref1}>
+        <SkillsResume></SkillsResume>
+      </div>
+
+      <div ref={ref2}>
+        <EducationExperience></EducationExperience>
+      </div>
+      <div>
+        <Projects ref={ref4}></Projects>
+      </div>
+      <div ref={ref4}>
+        <Contact></Contact>
+      </div>
     </div>
   );
 };
