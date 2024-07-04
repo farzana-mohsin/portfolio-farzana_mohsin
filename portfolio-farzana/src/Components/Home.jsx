@@ -7,6 +7,40 @@ import profile from "../../public/IMG_7517.jpg";
 import { useRef } from "react";
 
 const Home = () => {
+  // const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [stateMessage, setStateMessage] = useState(null);
+  // const sendEmail = (e) => {
+  //   e.persist();
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
+  //   emailjs
+  //     .sendForm(
+  //       process.env.REACT_APP_SERVICE_ID,
+  //       process.env.REACT_APP_TEMPLATE_ID,
+  //       e.target,
+  //       process.env.REACT_APP_PUBLIC_KEY
+  //     )
+  //     .then(
+  //       () => {
+  //         setStateMessage("Message sent!");
+  //         setIsSubmitting(false);
+  //         setTimeout(() => {
+  //           setStateMessage(null);
+  //         }, 5000); // hide message after 5 seconds
+  //       },
+  //       () => {
+  //         setStateMessage("Something went wrong, please try again later");
+  //         setIsSubmitting(false);
+  //         setTimeout(() => {
+  //           setStateMessage(null);
+  //         }, 5000); // hide message after 5 seconds
+  //       }
+  //     );
+
+  //   // Clears the form after sending the email
+  //   e.target.reset();
+  // };
+
   const ref1 = useRef(null);
   const ref2 = useRef(null);
   const ref4 = useRef(null);
@@ -137,11 +171,16 @@ const Home = () => {
                 LinkedIn
               </p>
             </Link>
-            <Link to='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AS5LTAT3di-_byNs9l2zUkuAq4JGkVwE0zwNsCtGf1thnM1yiaehoAy-ajlQGNR_U4QXn_IdNpiuHw&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-838392012%3A1720056123276757&ddm=0'>
+            <Link to='https://www.linkedin.com/in/farzana-mohsin/'>
               <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 Email
               </p>
             </Link>
+
+            {/* <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
+              Email
+            </p> */}
+
             <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
               Instagram
             </p>
