@@ -37,7 +37,7 @@ const Home = () => {
           <h2>photo</h2>
         </div>
       </div>
-      <div className='mt-96'></div>
+      <div></div>
       <SkillsResume></SkillsResume>
       <EducationExperience></EducationExperience>
       <Projects></Projects>

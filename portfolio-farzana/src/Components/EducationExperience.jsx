@@ -113,7 +113,7 @@ const EducationExperience = () => {
             {/* <li className='step'>Receive Product</li> */}
           </ul>
         </div>
-        <div className='ml-10 mr-10 lg:ml-0 lg:mr-0 lg:w-1/3 my-10'>
+        <div className='ml-10 mr-10 lg:ml-0 lg:mr-0 lg:w-1/2 my-10 lg:my-1'>
           {/* Education Background */}
           <h1 className='text-4xl font-bold text-[#952940] lg:pb-10 '>
             Education Background

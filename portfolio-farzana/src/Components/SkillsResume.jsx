@@ -6,25 +6,71 @@ import mongodb from "../../public/Screenshot 2024-07-02 at 8.25.40 AM.png";
 
 const SkillsResume = () => {
   return (
-    <div className='mt-96 mx-auto'>
-      <h2 className='font-bold text-center my-6'>Skills and Resume Section</h2>
-      <div className='flex items-center'>
-        <div className='grid grid-cols-2'>
+    <div className='mx-auto my-24 container'>
+      <h2 className='text-4xl font-bold text-center text-[#952940] pb-0 my-20'>
+        Skills and Resume
+      </h2>
+      <div className='flex flex-col lg:flex-row items-center justify-evenly'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
           {/* Skills Section */}
-          <div className='card bg-base-100 w-96 shadow-xl'>
+          <div className='card bg-base-100 hover:bg-[#952940] w-96 h-full shadow-2xl p-4'>
             <figure>
               <img
-                className='w-[15%]'
+                className='w-[17%]'
                 src={html}
                 alt='html'
               />
             </figure>
             <div className='card-body'>
-              <h2 className='card-title text-center mx-auto'>HTML</h2>
+              <h2 className='card-title text-center mx-auto text-2xl'>HTML</h2>
               {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
             </div>
           </div>
-          <div className='flex items-center justify-center flex-col'>
+          <div className='card bg-base-100 h-full hover:bg-[#952940] w-96 shadow-2xl p-4'>
+            <figure>
+              <img
+                className='w-[18%]'
+                src={Javascript}
+                alt='javascript'
+              />
+            </figure>
+            <div className='card-body'>
+              <h2 className='card-title text-center mx-auto text-2xl'>
+                Javascript
+              </h2>
+              {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+            </div>
+          </div>
+          <div className='card bg-base-100 w-96 h-full hover:bg-[#952940] shadow-2xl p-4'>
+            <figure>
+              <img
+                className='w-[20%]'
+                src={react}
+                alt='react'
+              />
+            </figure>
+            <div className='card-body'>
+              <h2 className='card-title text-center mx-auto text-2xl'>React</h2>
+              {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+            </div>
+          </div>
+          <div className='card bg-base-100 h-full hover:bg-[#952940] w-96 shadow-2xl p-4'>
+            <figure>
+              <img
+                className='w-[25%]'
+                src={mongodb}
+                alt='mongodb'
+              />
+            </figure>
+            <div className='card-body'>
+              <h2 className='card-title text-center mx-auto text-2xl'>
+                MongoDB
+              </h2>
+              {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+            </div>
+          </div>
+
+          {/* <div className='flex items-center justify-center flex-col'>
             <img
               className='w-[15%]'
               src={Javascript}
@@ -44,11 +90,13 @@ const SkillsResume = () => {
               src={mongodb}
             />
             <h2>MongoDB</h2>
-          </div>
+          </div> */}
         </div>
-        <div>
+        <div className='mt-20 lg:mt-0'>
           {/* Resume Section */}
-          <button className='btn btn-outline'>Download Resume</button>
+          <button className='btn btn-outline text-xl hover:bg-[#501773] bg-[#b62041] text-white px-5 pt-2 pb-3  rounded-2xl'>
+            Download Resume
+          </button>
         </div>
       </div>
     </div>
