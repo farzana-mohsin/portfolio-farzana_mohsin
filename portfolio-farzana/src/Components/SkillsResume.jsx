@@ -5,6 +5,18 @@ import react from "../../public/Screenshot 2024-07-01 at 10.37.16 PM.png";
 import mongodb from "../../public/Screenshot 2024-07-02 at 8.25.40 AM.png";
 
 const SkillsResume = () => {
+  const onButtonClick = () => {
+    const pdfUrl =
+      "https://drive.google.com/file/d/1VpyCech3BvIclL20Cjo2FaHKgD1k15qV/view?usp=drive_link";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download =
+      "https://drive.google.com/file/d/1VpyCech3BvIclL20Cjo2FaHKgD1k15qV/view?usp=drive_link"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className='mx-auto my-24 container'>
       <h2 className='text-4xl font-bold text-center text-[#952940] pb-0 my-20'>
@@ -94,7 +106,10 @@ const SkillsResume = () => {
         </div>
         <div className='mt-20 lg:mt-0'>
           {/* Resume Section */}
-          <button className='btn btn-outline text-xl hover:bg-[#501773] bg-[#b62041] text-white px-5 pt-2 pb-3  rounded-2xl'>
+          <button
+            onClick={onButtonClick}
+            className='btn btn-outline text-xl hover:bg-[#501773] bg-[#b62041] text-white px-5 pt-2 pb-3  rounded-2xl'
+          >
             Download Resume
           </button>
         </div>
