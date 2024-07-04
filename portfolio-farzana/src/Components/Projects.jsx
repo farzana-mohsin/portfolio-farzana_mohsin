@@ -201,7 +201,7 @@ const Projects = () => {
                   </li>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7]'
+                      className='hover:bg-[#f78da7] text-xl'
                       to='https://github.com/farzana-mohsin/holity-client'
                     >
                       Client Side Link

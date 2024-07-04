@@ -2,7 +2,7 @@ import { useRef } from "react";
 
 // import { MdOutlineVolunteerActivism } from "react-icons/md";
 
-const Navbar = ({}) => {
+const Navbar = () => {
   const ref = useRef(null);
   const handleSkillsResume = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
