@@ -171,7 +171,7 @@ const Home = () => {
                 LinkedIn
               </p>
             </Link>
-            <Link to='https://www.linkedin.com/in/farzana-mohsin/'>
+            <Link to='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AdF4I76nFYmZODwIKTJLI5FGzurF4UCtaveSy7Xh7wJgMWU_eVza-LcuqdJ0NaYgvpigcqJQY1psVA&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1678095899%3A1720101422663844&ddm=0'>
               <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 Email
               </p>
