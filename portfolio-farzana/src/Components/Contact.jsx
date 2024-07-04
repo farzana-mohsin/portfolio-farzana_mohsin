@@ -32,10 +32,10 @@ const Contact = () => {
 
   return (
     <div>
-      <section className='py-6 bg-gray-800 text-gray-50'>
+      <section className='py-6 bg-[#302729] text-gray-50'>
         <div className='grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x'>
           <div className='py-6 md:py-0 md:px-6'>
-            <h1 className='text-4xl font-bold my-4'>Get in touch</h1>
+            <h1 className='text-4xl font-bold lg:mt-16 mb-8'>Get in touch</h1>
             <div className='space-y-4'>
               <p className='flex items-center'>
                 <svg
@@ -79,8 +79,8 @@ const Contact = () => {
           </div>
 
           <div>
-            <p className='pt-2 pb-4 text-center text-xl'>
-              Fill in the form to start a conversation
+            <p className='pt-2 pb-4 text-center text-xl font-bold'>
+              Fill in the form to start a conversation!
             </p>
             <form
               ref={form}
@@ -89,36 +89,36 @@ const Contact = () => {
               className='flex flex-col py-6 space-y-6 md:py-0 md:px-6'
             >
               <label className='block'>
-                <span className='mb-1'>Full name</span>
+                <span className='mb-2 pb-2'>Full name</span>
                 <input
                   type='text'
                   name='user_name'
                   placeholder='Your Name'
-                  className='block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 text-gray-500 p-1'
+                  className='block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 text-gray-500 p-1 mt-2'
                 />
               </label>
               <label className='block'>
-                <span className='mb-1'>Email address</span>
+                <span className='mb-2'>Email address</span>
                 <input
                   type='email'
                   name='user_email'
                   placeholder='Your Email'
-                  className='block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 text-gray-500 p-1'
+                  className='block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 text-gray-500 p-1 mt-2'
                 />
               </label>
               <label className='block'>
-                <span className='mb-1'>Message</span>
+                <span className='mb-2'>Message</span>
                 <textarea
                   placeholder='Your Message'
                   name='message'
                   rows='3'
-                  className='p-1 block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 text-gray-500'
+                  className='p-1 block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 text-gray-500 mt-2'
                 ></textarea>
               </label>
               <button
                 type='submit'
                 value='Send'
-                className='self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-violet-400 text-gray-900 focus:ring-violet-400 hover:ring-violet-400'
+                className='self-center px-8 py-3 focus:ring hover:ring focus:ring-opacity-75 bg-[#f78da7] text-gray-200 focus:ring-violet-400 hover:ring-violet-400 font-bold rounded-xl text-xl'
               >
                 Submit
               </button>

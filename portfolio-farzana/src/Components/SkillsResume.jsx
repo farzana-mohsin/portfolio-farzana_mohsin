@@ -19,7 +19,7 @@ const SkillsResume = () => {
 
   return (
     <div className='mx-auto my-24 container'>
-      <h2 className='text-5xl font-bold text-center text-[#952940] pb-0 my-20'>
+      <h2 className='text-3xl lg:text-5xl font-bold text-center text-[#952940] pb-0 my-20'>
         Skills and Resume
       </h2>
       <div className='flex flex-col lg:flex-row items-center justify-evenly'>

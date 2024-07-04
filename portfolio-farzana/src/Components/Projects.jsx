@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { CgMediaLive } from "react-icons/cg";
 
 const Projects = () => {
   return (
@@ -82,29 +84,32 @@ const Projects = () => {
             </div>
             <div className='space-y-2'>
               <h4 className='text-xl font-semibold'>Project Links</h4>
-              <ul className='ml-4 space-y-1 list-disc'>
+              <ul className='ml-4 space-y-1'>
                 <li>
                   <Link
-                    className='hover:bg-[#f78da7]'
+                    className='hover:bg-[#f78da7] flex items-center gap-2'
                     to='https://assignment-ten-7654f.web.app/'
                   >
-                    Live Site
+                    <span className='text-red-500'>
+                      <CgMediaLive />
+                    </span>
+                    Live Link
                   </Link>
                 </li>
                 <li>
                   <Link
-                    className='hover:bg-[#f78da7]'
+                    className='hover:bg-[#f78da7] flex items-center gap-2'
                     to='https://github.com/farzana-mohsin/assignment-ten-client'
                   >
-                    Client Side Link
+                    <FaGithub /> Client Side Link
                   </Link>
                 </li>
                 <li>
                   <Link
-                    className='hover:bg-[#f78da7]'
+                    className='hover:bg-[#f78da7] flex items-center gap-2'
                     to='https://github.com/farzana-mohsin/assignment-ten-server'
                   >
-                    Server Side Link
+                    <FaGithub /> Server Side Link
                   </Link>
                 </li>
               </ul>
@@ -190,29 +195,32 @@ const Projects = () => {
               </div>
               <div className='space-y-2'>
                 <h4 className='text-xl font-semibold'>Project Links</h4>
-                <ul className='ml-4 space-y-1 list-disc'>
+                <ul className='ml-4 space-y-1'>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7]'
+                      className='hover:bg-[#f78da7] flex items-center gap-2'
                       to='https://assignment-eleven-a257a.web.app/'
                     >
-                      Live Site
+                      <span className='text-red-500'>
+                        <CgMediaLive />
+                      </span>{" "}
+                      Live Link
                     </Link>
                   </li>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7] text-xl'
+                      className='hover:bg-[#f78da7] flex items-center gap-2'
                       to='https://github.com/farzana-mohsin/holity-client'
                     >
-                      Client Side Link
+                      <FaGithub /> Client Side Link
                     </Link>
                   </li>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7]'
+                      className='hover:bg-[#f78da7] flex items-center gap-2'
                       to='https://github.com/farzana-mohsin/holity-server'
                     >
-                      Server Side Link
+                      <FaGithub /> Server Side Link
                     </Link>
                   </li>
                 </ul>
@@ -321,29 +329,32 @@ const Projects = () => {
               </div>
               <div className='space-y-2'>
                 <h4 className='text-xl font-semibold'>Project Links</h4>
-                <ul className='ml-4 space-y-1 list-disc'>
+                <ul className='ml-4 space-y-1'>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7]'
+                      className='hover:bg-[#f78da7] flex items-center gap-2'
                       to='https://blissful-trails.web.app/'
                     >
-                      Live Site
+                      <span className='text-red-500'>
+                        <CgMediaLive />
+                      </span>{" "}
+                      Live Link
                     </Link>
                   </li>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7]'
+                      className='hover:bg-[#f78da7] flex items-center gap-2'
                       to='https://github.com/farzana-mohsin/blissful-trails-client'
                     >
-                      Client Side Link
+                      <FaGithub /> Client Side Link
                     </Link>
                   </li>
                   <li>
                     <Link
-                      className='hover:bg-[#f78da7]'
+                      className='hover:bg-[#f78da7] flex items-center gap-2'
                       to='https://github.com/farzana-mohsin/blissful-trails-server'
                     >
-                      Server Side Link
+                      <FaGithub /> Server Side Link
                     </Link>
                   </li>
                 </ul>

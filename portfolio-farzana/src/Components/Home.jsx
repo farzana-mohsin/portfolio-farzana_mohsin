@@ -80,11 +80,11 @@ const Home = () => {
       {/* navbar */}
       <div className='navbar bg-[#5a1120] mt-5 py-8 text-white px-10'>
         <div className='navbar-start'>
-          <div className='dropdown'>
+          <div className='dropdown '>
             <div
               tabIndex={0}
               role='button'
-              className='btn btn-ghost lg:hidden'
+              className='btn btn-ghost lg:hidden '
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -103,7 +103,7 @@ const Home = () => {
             </div>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-36 lg:w-52'
+              className='menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-36 lg:w-52 bg-white text-[#5a1120]'
             >
               {pageLinks}
             </ul>
@@ -145,8 +145,8 @@ const Home = () => {
         {/* second column */}
         <div className='bg-[#f7e3ff] py-20 pl-16 col-span-2'>
           <div>
-            <h2 className='text-5xl'>Hello! My name is</h2>
-            <h2 className='text-7xl space-x-16 space-y-11 font-extrabold text-[#f37b83] my-16 tracking-[16px]'>
+            <h2 className='text-3xl lg:text-5xl'>Hello! My name is</h2>
+            <h2 className=' text-5xl lg:text-7xl space-x-16 space-y-11 font-extrabold text-[#f37b83] my-16 tracking-[16px]'>
               Farzana <br />
               Mohsin
             </h2>
