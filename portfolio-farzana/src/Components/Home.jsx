@@ -74,7 +74,7 @@ const Home = () => {
               {pageLinks}
             </ul>
           </div>
-          <a className='text-[#ffe4ea] text-2xl lg:text-4xl font-extrabold tracking-widest'>
+          <a className='text-[#ffe4ea] text-2xl lg:text-4xl font-bold tracking-[10px]'>
             PORTFOLIO
           </a>
         </div>
@@ -109,32 +109,40 @@ const Home = () => {
           <h2 className='font-bold text-xl pb-10'>+12345678</h2>
         </div>
         {/* second column */}
-        <div className='bg-[#f7e3ff] py-28 pl-16 col-span-2'>
+        <div className='bg-[#f7e3ff] py-20 pl-16 col-span-2'>
           <div>
-            <h2 className='text-4xl'>Hello! My name is</h2>
-            <h2 className='text-7xl space-x-16 space-y-11 font-extrabold text-[#f37b83] my-16 tracking-widest'>
+            <h2 className='text-5xl'>Hello! My name is</h2>
+            <h2 className='text-7xl space-x-16 space-y-11 font-extrabold text-[#f37b83] my-16 tracking-[16px]'>
               Farzana <br />
               Mohsin
             </h2>
-            <p className='w-[70%] text-[#57383f]'>
-              A full stack all around designer that may or may not include a
-              guide for specific creative potential methods who framing and
-              evaluating moves.
+            <p className='w-[85%] text-[#57383f]'>
+              A dedicated Customer Support Specialist with a passion for solving
+              problems and helping customers. Recently, I&apos;ve taken a leap
+              into the world of web development, acquiring skills in HTML, CSS,
+              JavaScript, and other modern web technologies.
+              <br />
+              <br />
+              I&apos;m eager to transition into a web developer role, where I
+              can combine my problem-solving abilities with my new technical
+              skills to create impactful and user-friendly web applications.
+              I&apos;m excited about the possibilities ahead and am looking
+              forward to contributing to a dynamic team!
             </p>
           </div>
 
           <div className='flex space-x-14 my-10 text-lg'>
             <Link to='https://www.linkedin.com/in/farzana-mohsin/'>
-              <p className='text-[#302729] font-bold hover:text-gray-400'>
+              <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 LinkedIn
               </p>
             </Link>
             <Link to='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AS5LTAT3di-_byNs9l2zUkuAq4JGkVwE0zwNsCtGf1thnM1yiaehoAy-ajlQGNR_U4QXn_IdNpiuHw&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-838392012%3A1720056123276757&ddm=0'>
-              <p className='text-[#302729] font-bold hover:text-gray-400'>
+              <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 Email
               </p>
             </Link>
-            <p className='text-[#302729] font-bold hover:text-gray-400'>
+            <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
               Instagram
             </p>
           </div>
