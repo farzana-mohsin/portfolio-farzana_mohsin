@@ -44,7 +44,7 @@ const Home = () => {
   return (
     <div>
       {/* navbar */}
-      <div className='navbar bg-base-100 mt-5 mb-10'>
+      <div className='navbar bg-[#5a1120] mt-5 py-8 text-white px-10'>
         <div className='navbar-start'>
           <div className='dropdown'>
             <div
@@ -74,7 +74,7 @@ const Home = () => {
               {pageLinks}
             </ul>
           </div>
-          <a className='text-[#302729] text-2xl lg:text-4xl font-extrabold'>
+          <a className='text-[#ffe4ea] text-2xl lg:text-4xl font-extrabold tracking-widest'>
             PORTFOLIO
           </a>
         </div>
