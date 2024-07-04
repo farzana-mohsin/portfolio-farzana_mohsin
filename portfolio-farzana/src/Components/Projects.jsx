@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div>
-      <h2 className='text-5xl font-bold text-center'>My Projects</h2>
-      <div className='my-20 flex flex-col lg:flex-row'>
+      <h2 className='text-5xl font-bold text-center text-[#952940] my-16'>
+        My Projects
+      </h2>
+      <div className=' flex flex-col lg:flex-row'>
         <div className='max-w-xl px-6 py-16 mx-auto space-y-12'>
           <article className='space-y-8 bg-[#302729] text-gray-50 p-5 rounded-2xl'>
             <div className='space-y-6'>
