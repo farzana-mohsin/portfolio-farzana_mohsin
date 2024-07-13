@@ -1,6 +1,6 @@
 // import { forwardRef } from "react";
 import html from "../../public/html.png";
-import Javascript from "../../public/js.png";
+import javascript from "../../public/js.png";
 import react from "../../public/react.png";
 import mongodb from "../../public/mongo.png";
 
@@ -42,7 +42,7 @@ const SkillsResume = () => {
             <figure>
               <img
                 className='w-[18%]'
-                src={Javascript}
+                src={javascript}
                 alt='javascript'
               />
             </figure>
