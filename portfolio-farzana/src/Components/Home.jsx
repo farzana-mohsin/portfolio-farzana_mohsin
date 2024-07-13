@@ -165,7 +165,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className='flex space-x-14 my-10 text-lg justify-between'>
+          <div className='flex space-x-14 my-10 text-lg justify-center'>
             <Link to='https://www.linkedin.com/in/farzana-mohsin/'>
               <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 LinkedIn
