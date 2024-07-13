@@ -165,7 +165,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className='flex space-x-14 my-10 text-lg'>
+          <div className='flex space-x-14 my-10 text-lg justify-between'>
             <Link to='https://www.linkedin.com/in/farzana-mohsin/'>
               <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 LinkedIn
@@ -180,10 +180,6 @@ const Home = () => {
             {/* <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
               Email
             </p> */}
-
-            <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
-              Instagram
-            </p>
           </div>
         </div>
         {/* third column */}
