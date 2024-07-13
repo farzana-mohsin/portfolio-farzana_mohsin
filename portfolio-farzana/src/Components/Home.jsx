@@ -133,7 +133,7 @@ const Home = () => {
           <h2 className='font-bold text-xl pb-10'>Farzana Mohsin</h2>
           <h2 className='text-[#f78da7] text-2xl'>ROLE</h2>
           <h2 className='font-bold text-xl pb-10'>
-            Customer Support Specialist
+            Technical Support Specialist
           </h2>
           <h2 className='text-[#f78da7] text-2xl'>Email</h2>
           <h2 className='font-bold text-xl pb-10'>
@@ -165,7 +165,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className='flex space-x-14 my-10 text-lg justify-center'>
+          <div className='flex space-x-14 my-10 text-lg'>
             <Link to='https://www.linkedin.com/in/farzana-mohsin/'>
               <p className='text-[#302729] font-bold hover:text-gray-400 tracking-widest'>
                 LinkedIn

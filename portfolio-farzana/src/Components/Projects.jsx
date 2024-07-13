@@ -8,7 +8,7 @@ const Projects = () => {
       <h2 className='text-5xl font-bold text-center text-[#952940] my-16'>
         My Projects
       </h2>
-      <div className=' flex flex-col lg:flex-row'>
+      <div className='flex flex-col lg:flex-row'>
         <div className='max-w-xl px-6 py-16 mx-auto space-y-12'>
           <article className='space-y-8 bg-[#302729] text-gray-50 p-5 rounded-2xl'>
             <div className='space-y-6'>
@@ -39,13 +39,6 @@ const Projects = () => {
           </article>
           <div>
             <div className='flex flex-wrap py-6 gap-2 border-t border-dashed border-gray-700'>
-              <a
-                rel='noopener noreferrer'
-                href='#'
-                className='px-3 py-1 rounded-sm hover:underline bg-violet-400 text-gray-900'
-              >
-                #HTML
-              </a>
               <a
                 rel='noopener noreferrer'
                 href='#'
@@ -263,13 +256,6 @@ const Projects = () => {
             </article>
             <div>
               <div className='flex flex-wrap py-6 gap-2 border-t border-dashed border-gray-700'>
-                <a
-                  rel='noopener noreferrer'
-                  href='#'
-                  className='px-3 py-1 rounded-sm hover:underline bg-violet-400 text-gray-900'
-                >
-                  #HTML
-                </a>
                 <a
                   rel='noopener noreferrer'
                   href='#'
