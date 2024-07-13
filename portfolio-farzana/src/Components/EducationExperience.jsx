@@ -135,19 +135,26 @@ const EducationExperience = () => {
                 <p>Remote, Toronto, Ontario, Canada</p>
                 <ul className='list-disc space-y-3 text-base my-5'>
                   <li>
-                    Prepared and maintained filing system from manual to
-                    computer-based, creating a user-friendly and reducing data
-                    retrieval time by 15%
+                    Customer Support: Provide daily email and chat support to
+                    UserTesting’s customers, resolving technical issues through
+                    education, investigation, and troubleshooting.
                   </li>
                   <li>
-                    Gained organizational, analytical, and problem-solving
-                    skills by coordinating photography and painting contests,
-                    workshops on tree plantation, healthy living, recruitment
-                    events, etc.
+                    Bug Troubleshooting: Replicate customer-reported issues to
+                    troubleshoot and identify bugs, then document findings for
+                    further investigation by the Engineering team.
                   </li>
                   <li>
-                    Crafted professional responses to stakeholder queries
-                    through email and phone call
+                    Internal Testing: Perform internal testing of the
+                    UserTesting platform to identify potential issues and
+                    improve overall system reliability proactively. Conduct
+                    testing of new features in the software to ensure
+                    functionality and quality before release.
+                  </li>
+                  <li>
+                    Leverage various tools and systems, including JIRA,
+                    Confluence, Zendesk, and Salesforce, to access account
+                    information, diagnose, and solve complex technical issues.
                   </li>
                 </ul>
               </div>
