@@ -3,7 +3,7 @@ import Contact from "./Contact";
 import EducationExperience from "./EducationExperience";
 import Projects from "./Projects";
 import SkillsResume from "./SkillsResume";
-import profile from "../../public/IMG_7517.jpg";
+import profile from "../../public/headshot.jpg";
 import { useRef } from "react";
 
 const Home = () => {

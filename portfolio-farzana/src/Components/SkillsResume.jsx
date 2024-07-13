@@ -1,8 +1,8 @@
 // import { forwardRef } from "react";
-import html from "../../public/Screenshot 2024-07-02 at 8.28.10 AM.png";
-import Javascript from "../../public/Screenshot 2024-07-01 at 10.37.06 PM.png";
-import react from "../../public/Screenshot 2024-07-01 at 10.37.16 PM.png";
-import mongodb from "../../public/Screenshot 2024-07-02 at 8.25.40 AM.png";
+import html from "../../public/html.png";
+import Javascript from "../../public/js.png";
+import react from "../../public/react.png";
+import mongodb from "../../public/mongo.png";
 
 const SkillsResume = () => {
   const onButtonClick = () => {
